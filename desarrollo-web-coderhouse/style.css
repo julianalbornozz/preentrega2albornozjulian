@@ -1,0 +1,392 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(195, 237, 192);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 45px;
+    padding-top: 15px;
+    color: black;
+}
+    
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+div a {
+    text-decoration: none;
+}
+
+/* img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 4px 19px 0 #000;
+    border-radius: 100%;
+} */
+
+.logo {
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 4px 19px 0 #000;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    display: inline-block;
+}
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(8, 224, 73);
+    transition: all ease 0.9s;
+}
+
+.aside-barra {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(170, 200, 167);
+}
+
+.aside-adentro {
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.aside-adentro a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.consultame {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.aside-contacto {
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 240, 232);
+    border-color: rgba(11, 17, 14, 0.932);
+}
+
+.pie {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+.pie2 {
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(170, 200, 167);
+
+}
+
+
+.ultimo-parrafo {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.ultimo-parrafo li a {
+    padding: 30px 20px;
+    margin-left: 15x;
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+
+.ultima-palabra {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(241, 240, 232);
+}
+
+/*A partir de aca se modifica Presupuestos*/
+
+.titulo-principal {
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.presupuesto-subtitulo {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    
+}
+
+.presupuesto-color {
+    background-color: rgb(195, 237, 192);
+}
+
+
+
+.footer-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.footer-final a {
+    text-decoration: none;
+    color: slategray;
+    padding-top: 20px;
+}
+
+
+
+/*A partir de aca es Sobre mi*/
+
+.sobre-mi {
+    padding-top: 20px;
+}
+
+.parrafo-main {
+    padding-bottom: 15px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.link-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+div a:visited {
+    color: rgb(14, 129, 72);
+}
+
+
+
+/*A partir de aca es Metas*/
+
+.metas {
+    font-size: 50px;
+}
+
+.metas-article {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.h3-redes{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.metas-footer {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.container-metas {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    list-style: none;
+}
+
+.metas-footer li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+/*A partir de aca es Contacto*/
+
+.titulo-contacto {
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.pie-final {
+    padding-top: 50px;
+}
+
+.pie-final ul {
+    padding: 20px;
+}
+
+.ultimos-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.ultimos-li a {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.contact-form {
+    padding-top: 30px;
+    margin-left: 5px;
+    
+}
+
+.contact-form__nombre {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__apellido {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__email {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__telefono {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.redes {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.redes li a {
+    text-decoration: none;
+}
+
+/* esto es nuevo */
+
+.layoutPresupuesto {
+  
+    display: grid;
+    grid:
+      "titlePrespuesto" 1fr
+      "mainPresupuesto" 4fr
+      "footerPresupuesto" 1fr
+      / auto;
+    gap: 8px;
+  }
+  
+  .titlePrespuesto { 
+    grid-area: titlePrespuesto;
+ }
+  .mainPresupuesto { grid-area: mainPresupuesto; }
+  .footerPresupuesto { 
+    grid-area: footerPresupuesto;
+}
+
+.links {
+    text-align: center;
+    text-decoration: none;
+}
+
+  .titulo {
+    text-align: center;
+    color: red;
+  }
+
+.card-body {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white !important;
+}
+
+.card-title {
+    background-color: white;
+}
+
+.card-text {
+    background-color: white;
+}
+
+.layoutIndex {
+ 
+    display: grid;
+    grid:
+      "main" 5fr
+      "footer" 1fr
+      / auto;
+    gap: 8px;
+  }
+  
+  .mainIndex { grid-area: main; }
+  .footerIndex { grid-area: footer; }
+
+
+
+
+@media screen and (min-width: 500px)  and (max-width:1000px) {
+    * {
+        background-color: #8eebadd2;
+        font-size: 15px;
+        color:slategrey;
+    }
+}
+
+/*meterle metodologia bem a la parte de presupuestos/*
+
