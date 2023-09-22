@@ -264,11 +264,7 @@ div a:visited {
 }
 
 .h3-redes{
-    padding-top: 20px;
     font-size: 30px;
-    border: solid 1px black;
-    border-radius: 10px;
-    background-color: rgb(170, 200, 167);
     text-align: center;
     color: white;
 }
