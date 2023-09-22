@@ -307,12 +307,10 @@ div a:visited {
     padding-top: 10px;
 }
 
-.pie-final {
-    padding-top: 50px;
-}
+.informacion {
+    font-size: 20px;
+    font-weight: 400;
 
-.pie-final ul {
-    padding: 20px;
 }
 
 .ultimos-li {
@@ -329,12 +327,11 @@ div a:visited {
 }
 
 .contact-form {
-    padding-top: 30px;
+    padding-bottom: 10px;
     margin-left: 5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
 }
 
 .contact-form__nombre {
@@ -358,16 +355,17 @@ div a:visited {
 }
 
 .redes {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 2;
+    list-style: none;
+    padding-bottom: 25px;
 }
 
 .redes li a {
     text-decoration: none;
 }
 
-/* esto es nuevo */
+
 
 
 
