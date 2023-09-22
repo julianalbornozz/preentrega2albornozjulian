@@ -85,9 +85,7 @@ nav ul li a:hover {
     margin-left: 5px;
 }
 
-.consultame {
-    font-size: 20px;
-    font-weight: 500;
+.boton-inicio {
     padding-top: 20px;
 }
 
@@ -243,7 +241,7 @@ nav ul li a:hover {
 }
 
 div a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(100, 100, 100);
 }
 
 
@@ -302,8 +300,11 @@ div a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 5px solid white;
-    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.dropdown {
+    padding-top: 10px;
 }
 
 .pie-final {
@@ -330,6 +331,9 @@ div a:visited {
 .contact-form {
     padding-top: 30px;
     margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     
 }
 
