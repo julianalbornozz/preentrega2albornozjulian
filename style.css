@@ -154,7 +154,8 @@ nav ul li a:hover {
   }
   
   .mainIndex { grid-area: main; }
-  .footerIndex { grid-area: footer; }
+  .footerIndex { grid-area: footer;
+    margin-top:auto; }
 
 
 
@@ -166,6 +167,10 @@ nav ul li a:hover {
     text-align: center;
     color: whitesmoke;
     padding-bottom: 20px;
+  }
+
+  .card {
+    height: 15rem !important;
   }
 
 .card-body {
@@ -364,10 +369,8 @@ div a:visited {
 
 
 
-
 @media screen and (min-width: 500px)  and (max-width:800px) {
     * {
-        background-color: #cae9d4dc;
         font-size: 15px;
         color:slategrey;
     }
