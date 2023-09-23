@@ -235,6 +235,7 @@ nav ul li a:hover {
     padding-bottom: 15px;
     font-size: 18px;
     font-weight: 200;
+    text-align: center;
 }
 
 .div-footer {
@@ -243,7 +244,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     text-decoration: none;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .link-final {
