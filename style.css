@@ -214,7 +214,18 @@ nav ul li a:hover {
 }
 
 
+
+
 /*A partir de aca es Sobre mi*/
+
+
+.sobremi-tittle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: whitesmoke;
+}
+
 
 .sobre-mi {
     padding-top: 20px;
@@ -222,6 +233,8 @@ nav ul li a:hover {
 
 .parrafo-main {
     padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .div-footer {
@@ -327,7 +340,7 @@ div a:visited {
     margin-left: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .contact-form__nombre {
@@ -350,6 +363,11 @@ div a:visited {
     border-color: rgb(63, 78, 79);
 }
 
+.button-final {
+    border: none;
+    padding-top: 10px;
+}
+
 .redes {
     font-size: 15px;
     font-weight: 500;
@@ -357,11 +375,11 @@ div a:visited {
     padding-bottom: 25px;
 }
 
-.redes li a {
+.redes li  {
     text-decoration: none;
+    margin: 20px 0;
+    font-size: 15px;
 }
-
-
 
 
 
