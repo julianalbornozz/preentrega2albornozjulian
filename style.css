@@ -391,6 +391,8 @@ div a:visited {
     * {
         font-size: 15px;
         color:rgb(35, 37, 39);
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
