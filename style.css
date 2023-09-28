@@ -231,6 +231,25 @@ nav ul li a:hover {
     padding-top: 20px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    display: inline-block;
+}
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
 .parrafo-main {
     padding-bottom: 15px;
     font-size: 18px;
@@ -269,6 +288,26 @@ div a:visited {
     justify-content: center;
     color: whitesmoke;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    display: inline-block;
+}
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
 
 .metas-article {
     font-size: 18px;
@@ -313,9 +352,25 @@ div a:visited {
     color: whitesmoke;
 }
 
-.dropdown {
-    padding-top: 10px;
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 450;
+    display: inline-block;
 }
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
 
 .informacion {
     font-size: 20px;
