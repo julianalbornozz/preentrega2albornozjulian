@@ -250,11 +250,27 @@ nav ul li a {
     padding-bottom: 20px;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.imagen {
+    height: 200px;
+    width: 350px;   
+    margin: 0 10px;
+}
+
 .parrafo-main {
-    padding-bottom: 15px;
+    padding-top: 15px;
     font-size: 18px;
     font-weight: 200;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .div-footer {
@@ -426,7 +442,7 @@ nav ul li a {
 }
 
 .redes {
-    font-size: 15px;
+    font-size: 88px;
     font-weight: 500;
     list-style: none;
     padding-bottom: 25px;
