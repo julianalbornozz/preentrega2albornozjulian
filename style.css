@@ -68,9 +68,9 @@ nav ul li a:hover {
     font-size: 40px;
     text-align: center;
     margin: 20px 0;
-    border: solid 1px black;
-    border-radius: 10px;
-    background-color: rgb(170, 200, 167);
+    color: whitesmoke;
+    font-weight: 600;
+   
 }
 
 .aside-adentro {
@@ -109,8 +109,7 @@ nav ul li a:hover {
     text-align: center;
     border: solid 1px black;
     border-radius: 10px;
-    background-color: rgb(170, 200, 167);
-
+    background-image: linear-gradient(to right, #b9bec2, #c2cbce, #cbd8d7, #d7e4e0, #e6f0e7);
 }
 
 
