@@ -185,6 +185,40 @@ nav ul li a:hover {
 }
 
 
+.contact-form {
+    padding-bottom: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-form__nombre {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__apellido {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__email {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.contact-form__telefono {
+    border-radius: 20px;
+    border-color: rgb(63, 78, 79);
+}
+
+.button-final {
+    border: none;
+    padding-top: 10px;
+}
+
+
 .links {
     display: flex;
     flex-direction: row;
@@ -255,6 +289,7 @@ nav ul li a {
     justify-content: flex-start;
     padding: 25px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .imagen {
@@ -264,7 +299,8 @@ nav ul li a {
 }
 
 .parrafo-main {
-    padding-top: 15px;
+    padding-top: 30px;
+    margin-right: 20px;
     font-size: 18px;
     font-weight: 200;
     display: flex;
@@ -407,38 +443,6 @@ nav ul li a {
     color: slategrey;
 }
 
-.contact-form {
-    padding-bottom: 10px;
-    margin-left: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.contact-form__nombre {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-}
-
-.contact-form__apellido {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-}
-
-.contact-form__email {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-}
-
-.contact-form__telefono {
-    border-radius: 20px;
-    border-color: rgb(63, 78, 79);
-}
-
-.button-final {
-    border: none;
-    padding-top: 10px;
-}
 
 .redes {
     font-size: 88px;
